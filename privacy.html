@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Privacy Policy — Rainbows &amp; Unicorns AI</title>
+    <meta
+      name="description"
+      content="Privacy policy for Rainbows &amp; Unicorns AI Ltd's Google-integrated personal assistant application."
+    />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      .legal {
+        max-width: var(--max);
+        margin: 0 auto;
+        padding: 2rem 1.25rem 1rem;
+      }
+      .legal h1 {
+        font-size: clamp(1.8rem, 4vw, 2.4rem);
+        margin-bottom: 0.2em;
+      }
+      .legal .updated {
+        color: var(--muted);
+        font-size: 0.9rem;
+        margin-top: 0;
+      }
+      .legal h2 {
+        margin-top: 2em;
+        font-size: 1.2rem;
+      }
+      .legal p,
+      .legal li {
+        color: var(--muted);
+      }
+      .legal a {
+        color: var(--accent-4);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span class="brand-name">Rainbows &amp; Unicorns <span class="brand-ai">AI</span></span>
+      </a>
+      <nav>
+        <a href="/#services">Services</a>
+        <a href="/#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="legal">
+        <h1>Privacy Policy</h1>
+        <p class="updated">Last updated: 19 October 2026</p>
+
+        <p>
+          This policy covers the Google-integrated <strong>personal assistant
+          application</strong> ("the app") operated by
+          <strong>Rainbows &amp; Unicorns AI Ltd</strong> ("we", "us"). The app is a
+          private, single-user automation assistant that runs on our own server. It is
+          not a public product and is not offered to other users.
+        </p>
+
+        <h2>What data the app accesses</h2>
+        <p>
+          With your explicit Google consent, the app accesses the authorising user's own
+          Google account data via the Google APIs, limited to the scopes you approve,
+          which may include Gmail (read, send and modify your own messages), Google
+          Calendar, Google Drive, Google Contacts, Google Docs and Google Sheets. It only
+          ever accesses the account of the person who authorises it.
+        </p>
+
+        <h2>How the data is used</h2>
+        <p>
+          Data is used solely to provide personal-assistant features to the authorising
+          user — for example summarising their own email and calendar into a daily
+          briefing, detecting time-sensitive events, and organising their own
+          information. All processing happens on our own private server.
+        </p>
+
+        <h2>What the app does not do</h2>
+        <ul>
+          <li>It does <strong>not</strong> sell, rent or share your data with any third party.</li>
+          <li>It does <strong>not</strong> use your data for advertising.</li>
+          <li>It does <strong>not</strong> transfer your Google data to anyone other than the authorising user.</li>
+          <li>
+            It does <strong>not</strong> use Google Workspace APIs data to develop,
+            improve or train generalised AI / ML models.
+          </li>
+        </ul>
+
+        <h2>Storage, retention and revocation</h2>
+        <p>
+          Access tokens and any cached data are stored locally on our own server,
+          protected by operating-system file permissions, and retained only as long as
+          needed to provide the assistant features. You can revoke the app's access at
+          any time at
+          <a href="https://myaccount.google.com/permissions">Google Account → Security →
+          Third-party access</a>, which immediately stops all access.
+        </p>
+
+        <h2>Limited Use (Google API Services User Data Policy)</h2>
+        <p>
+          The app's use and transfer of information received from Google APIs adheres to
+          the
+          <a href="https://developers.google.com/terms/api-services-user-data-policy">Google
+          API Services User Data Policy</a>, including the Limited Use requirements.
+        </p>
+
+        <h2>Contact</h2>
+        <p>
+          For any questions about this policy or the data the app holds, contact
+          <a href="mailto:hello@rainbowsandunicorns.ai">hello@rainbowsandunicorns.ai</a>.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year"></span> Rainbows &amp; Unicorns AI Ltd.</p>
+    </footer>
+
+    <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
